@@ -17,3 +17,4 @@ for el in reclame_tekst4 :
         print(el.lower())
     else:
         print(el)
+        
