@@ -7,4 +7,6 @@ aanbieding = prijzen["vannille"] * 0.8
 reclame_tekst ="Vandaag in de aanbieding : vanille-ijs, 1 liter - slechts €"+str(aanbieding) 
 
 reclame_tekst2 = reclame_tekst[:62]
-print(reclame_tekst2)
+
+reclame_tekst3 = reclame_tekst2.upper()
+print(reclame_tekst3)
